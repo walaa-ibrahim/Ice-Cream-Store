@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--meta-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Required css files-->
+    <!--bootstrap file-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--links of Fonts used-->
+    <link href="https://fonts.googleapis.com/css?family=Cairo:300,400,600,700&display=swap" rel="stylesheet">
+    <!--slick plugin css-->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <!--fancybox-->
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+    <!--fontawsome file-->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <!--main css file-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--header-->
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg">
+                <!--Logo-->
+                <a class="navbar-brand logo" href="index.html"><img src="imgs/logo.png" alt="logo"></a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <!--Main-Links-->
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">الرئيسية <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="product.html" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">منتاجتنا</a>
+                            <div class="dropdown-menu text-right" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="product.html">منتاجتنا</a>
+                                <a class="dropdown-item" href="product1.html">منتاجتنا1</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="jobs.html">الوظائف</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">اتصل بنا</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav><!--End navbar-->
+        </div><!--End container-->
+    </header><!--End header-->
+    <!--Apply-job-->
+    <section class="apply-job py-5">
+        <div class="container">
+            <div class="my-5">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6 my-2">
+                            <input type="text" class="form-control" id="" placeholder="الاسم">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="email" class="form-control" id="" placeholder="البريد الاليكترونى">
+                        </div>
+                        <div class="form-group col-md-6 my-2">
+                            <select class="custom-select" id="">
+                                <option selected>الوظيفة المقدم عليها</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="form-group col-md-6 my-2">
+                            <input type="text" class="form-control" id="inputAddress" placeholder="رقم الهاتف">
+                        </div>
+                        <div class="col-md-6 my-2">
+                            <label for="customFile" class="my-3">من فضلك قم برفع ال cv</label>
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input form-control" id="customFile">
+                                <label class="custom-file-label" for="customFile"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center my-5"><button type="submit" class="btn-prod">ارسال</button></div>
+                  </form>
+            </div>
+        </div><!--End container-->
+    </section><!--End Apply-job-->
+    <!--footer-->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <a href="index.html" class="logo"><img src="imgs/logo.png" alt="logo-footer"></a>
+                    <p class="main-txt pl-5">لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء
+                        كانت تصاميم مطبوعه ... بروشور او فلاير على سبيل المثال ... او نماذج
+                    </p>
+                    <ul class="d-flex list-unstyled">
+                        <li class="ml-4"><a class="social-links" href=""><i class="fab fa-instagram"></i></a></li>
+                        <li class="ml-4"><a class="social-links" href=""><i class="fab fa-facebook"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <div class="left-box py-4">
+                        <h3 class="my-4">العنوان</h3>
+                        <p>الراهبين - سمنود - غربية</p>
+                        <p class="my-3">0402963210 - 0402962886</p>
+                        <p class="mb-4">01024566001</p>
+                        <div class="contact mb-5">
+                            <h4>اشترك معنا</h4>
+                            <form action="">
+                                <div class="input-group">
+                                    <input type="email" name="uMail" class="form-control" placeholder="البريد الاليكترونى">
+                                    <button type="submit" class="btn btn-env"><i class="far fa-envelope"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div><!--End row-->
+        </div><!--End container-->
+    </footer><!--End footer-->
+    <!--Required js files-->
+    <!--jquery & bootstrap file-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--slick plugin js-->
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <!--main js file-->
+    <script src="js/main.js"></script>
+</body>
+</html>

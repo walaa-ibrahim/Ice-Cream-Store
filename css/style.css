@@ -1,0 +1,338 @@
+/*Global style main-color:#278FB4, #EEDDB1, #E19C8C*/
+body{
+    direction: rtl;
+    text-align: right;
+    font-family: 'Cairo', sans-serif;
+    background-color: #EEEEEE;
+}
+a{
+    color: #fff;
+    text-decoration: none !important;
+}
+.main-title{
+    border-right: 4px solid #278FB4;
+    padding-right: 10px;
+    color: #DF431B;
+}
+/*Header*/
+header{
+    background-image: url(../imgs/header.jpg);
+    background-size: cover;
+}
+.main-header{
+    background-position: center;
+    height: 100vh;
+}
+.logo img{
+    width: 310px;
+}
+nav{
+    background-color: transparent;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 20px;
+    font-weight: 700;
+    color:#DF431B ;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.navbar-toggler i{
+    font-size: 27px;
+    color:#DF431B;
+}
+.header-cont{
+    color: #DF431B;
+    overflow: hidden;
+    position: relative;
+    top:100px
+}
+.header-cont h2{
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.9;
+}
+/*media query of header*/
+@media (max-width:992px){
+    header .logo img{
+        width: 200px;
+    }
+    .navbar-collapse{
+        background-color: rgba(203,181,161,0.3);
+        padding: 20px;
+        text-align: center;
+    }
+    .header-cont{
+        top: 200px;
+    }
+}
+@media (max-width:768px){
+    .header-cont{
+        top: 250px;
+    }
+    .header-cont h2{
+        font-size: 2.7rem;
+    }
+}
+@media (max-width:525px){
+    header .logo img{
+        width: 140px;
+    }
+    .header-cont h2{
+        font-size:1.9rem;
+    }
+}
+/*End header*/
+/*our-products*/
+.our-products .card, .our-products .card img{
+    border-radius: 7px;
+}
+.prod-cont{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: #fff;
+    padding: 15px 10px;
+    border-radius: 7px;
+}
+.overlay-purp{
+    background-color: rgba(114, 64, 111, 0.4)
+}
+.overlay-green{
+    background-color: rgba(76, 134, 69, 0.4);
+}
+.prod-cont h2{
+    font-weight: 600;
+    margin-top: 10px;
+}
+.prod-cont p{
+    font-weight: 600;
+    font-size: 15px;
+}
+.btn-white{
+    background-color: #fff;
+    color: #DF431B;
+}
+.btn-white i{
+    position: relative;
+    top: 2px;
+    left: 4px;
+}
+.btn-prod{
+    background-color: #CF2B06;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 1px 7px 5px #EED5D0;
+    padding:10px 70px;
+    border-color: transparent;
+    border-radius: 29px;
+}
+/*End our-products*/
+/*ice-request*/
+.ice-request{
+    background-image: url(../imgs/callus-bg@2x.jpg);
+    background-size: cover;
+    color: #fff;
+}
+.ice-request h3{
+    font-size: 45px;
+}
+.ice-request p{
+    font-size: 22px;
+}
+.ice-request i{
+    color: #278FB4;
+}
+/*End ice-request*/
+/*contact-us*/
+.contact-us{
+    overflow: hidden;
+}
+.cont-form{
+    background-image: url(../imgs/contact\ us\ bg@2x.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.cont-form .form-control{
+    background-color: #fff;
+    padding: .85rem .75rem;
+    border-radius: .9rem;
+}
+.cont-form .form-control::placeholder{
+    color: #E19C8C;
+}
+.btn-form{
+    background-color: #EEDDB1;
+    color: #DF431B;
+    padding:.75rem .75rem;
+    border-radius: 20px;
+}
+/*End contact-us*/
+/*Footer*/
+footer{
+    background-image: url(../imgs/footer-bg.jpg);
+    background-size: cover;
+    color: #f6f6f6;
+}
+footer ul{
+    padding-right: 0;
+}
+footer .main-txt{
+    font-size: 23px;
+    line-height: 2.3;
+}
+footer a.social-links {
+    font-size: 44px;
+    color: #E4CEB9;
+}
+.left-box p{
+    font-size: 22px;
+}
+.contact h4{
+    color: #E4CEB9;
+}
+.contact form{
+    width: 70%;
+}
+.contact .form-control, .input-group > .form-control:not(:last-child){
+    background-color: #E4CEB9;
+    border-radius: 24px;
+    padding: .75rem 1rem;
+    border-color: transparent;
+}
+.contact .btn{
+    color: #DF431B;
+    position: absolute;
+    padding: .375rem 2rem;
+    left: 5px;
+    font-size: 1.5rem;
+    border-radius: 24px;
+    z-index: 888;
+}
+
+/*****jobs page*****/
+.jobs{
+    overflow: hidden;
+}
+.jobs .card{
+    background-color: #278FB4;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px#b6b1b1;
+}
+.jobs .btn-prod{
+    padding: 10px 100px;
+}
+.jobs .card img{
+    width: 30%;
+    margin: 10px auto;
+}
+/*****End jobs page*****/
+/****product-page page*****/
+.nav-tabs{
+    border-bottom: none;
+}
+.nav-tabs .nav-item{
+    margin:10px
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: transparent;
+    border-color: #321B0B;
+    color: #278FB4;
+}
+.our-products{
+    overflow: hidden;
+}
+.our-products .nav-link{
+    padding: .5rem 2.5rem;
+    border:2px solid #321B0B !important;
+    border-radius: 20px;
+    color:#DF431B ;
+}
+/****End product page*****/
+
+/****product1-page*****/
+.product-details{
+    overflow: hidden;
+}
+.product-details h3, .product-details h5{
+    color: #DF431B;
+}
+.product-details p{
+    color: #278FB4;
+    line-height: 1.8;
+}
+.slider-prod{
+    background-image: url(../imgs/products-bg.png);
+    background-size: cover;
+    overflow: hidden;
+}
+.slider-prod .item{
+    margin:10px;
+    position: relative;
+}
+.item .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    color: #fff;
+    display: none;
+    transition: display 0.5s;
+}
+.item .overlay p{
+    font-size: 19px;
+    position: relative;
+    top:47%;
+    font-weight: 600;
+}
+.item:hover .overlay{
+    display: block;
+}
+.slider-prod .slick-dots li.slick-active button::before{
+    color: #278FB4;
+}
+.slider-prod .slick-dots li button::before{
+    font-size:70px;
+    color: #E4CEB9;
+    opacity: 0.85;
+}
+/****End product1-page*****/
+/****Apply-job page*****/
+.apply-job .form-control, .apply-job .custom-file-label{
+    padding:1rem 0.75rem ;
+    border-radius: 2.25rem;
+}
+.apply-job .form-control::placeholder, .apply-job label{
+    color: #E19C8C;
+}
+.custom-select{
+    background-image: none;
+    height: calc(3.35rem + 3px);
+    border-radius: 2.25rem;
+    padding-right: .75rem;
+    color: #E19C8C;
+}
+.form-group i{
+    position: absolute;
+    z-index: 888;
+    color: #DF431B;
+    left:20px;
+    top:23px;
+    cursor: pointer;
+}
+
+.custom-file-label::after {
+    right: 87%;
+    height: calc(calc(2.25rem + 2.2px) - 1px * 2);
+    color: #E19C8C;
+    background-color:transparent;
+    border: none;
+    border-right: 1px solid #444;
+    border-radius: 0;
+    padding: 5px 10px;
+
+}
